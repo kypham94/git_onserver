@@ -103,19 +103,19 @@
           <div class="row">
             <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
           </div>
+          <div class="row">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <!-- quarng cao 2 -->
-          <div class="row">
           <ins class="adsbygoogle"
                style="display:block"
                data-ad-client="ca-pub-6662668396400898"
                data-ad-slot="7207390732"
                data-ad-format="auto"
                data-full-width-responsive="true"></ins>
-          </div>
           <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
+          </div>
 				</div>
 			</div>			   
 		</div>
