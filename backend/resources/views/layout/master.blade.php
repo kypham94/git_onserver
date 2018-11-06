@@ -134,7 +134,6 @@
                 <li class="nav-item mr-3">
                   <a class="nav-link" target="blank" href="http://cuongbongdatv.com">Tin tức bóng đá</a>
                 </li>
-                <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
               </ul>
             </div>
           </div>
