@@ -57,7 +57,7 @@
     }
     </style>
 
-    <div class="demo-btn-space mb-4" style="margin: 40px">
+    <div class="demo-btn-space mb-4" style="margin: 5%">
 
             <div class="row" style="margin-bottom: 20px;">
             	<div class="col-md-1 col-lg-1"></div>
