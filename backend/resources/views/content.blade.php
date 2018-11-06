@@ -103,8 +103,8 @@
            
           </div>
 				  </div>
-				<div class="col-md-3 col-lg-3 chat">
-					<div id="chatwing-embedded-2bb40920-de4c-11e8-9d7e-e1742e584162"></div>
+				<div class="col-md-3 col-lg-3">
+					<div class="chat" id="chatwing-embedded-2bb40920-de4c-11e8-9d7e-e1742e584162"></div>
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <!-- quarng cao 2 -->
           <ins class="adsbygoogle"
