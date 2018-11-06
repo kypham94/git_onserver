@@ -102,7 +102,7 @@
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
           <div class="row" style="margin-bottom: 20px">
-            <div class="fb-page" data-href="https://www.facebook.com/cuongbongdachannel/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cuongbongdachannel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cuongbongdachannel/">Cuồng Bóng đá TV</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/cuongbongdachannel/" data-tabs="" data-width="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cuongbongdachannel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cuongbongdachannel/">Cuồng Bóng đá TV</a></blockquote></div>
           </div>
           <div class="bottom-ads">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
