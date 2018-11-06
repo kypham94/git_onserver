@@ -155,7 +155,7 @@
 
     @yield('content')
     <div class="row">
-      <div class="col-md-12">
+      <div class="container">
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle"
            style="display:block"
