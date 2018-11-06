@@ -94,15 +94,16 @@
         	</div>
             <div class="row">
             	<div class="col-md-1 col-lg-1"></div>
+          <div class="col-sm-12 col-md-9 col-lg-9">
 			  	<div data-live="true" data-ratio="0.5625" data-share="false" class="flowplayer">
            
-             <video class="col-sm-12 col-md-9 col-lg-9" data-title="Live stream">
+             <video data-title="Live stream">
           <source type="application/x-mpegurl"
                   src="http://wms.shared.streamshow.it/carinatv/carinatv/playlist.m3u8">
              </video>
            
           </div>
-				
+				  </div>
 				<div class="col-md-3 col-lg-3 chat">
 					<div id="chatwing-embedded-2bb40920-de4c-11e8-9d7e-e1742e584162"></div>
 				</div>
