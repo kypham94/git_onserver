@@ -96,9 +96,9 @@
           <div class="col-sm-12 col-md-8 col-lg-8">
 			  	<div data-live="true" data-ratio="0.5625" data-share="false" class="flowplayer">
            
-             <video data-title="Live stream">
+             <video data-title="{{$data->name}}">
           <source type="application/x-mpegurl"
-                  src="http://wms.shared.streamshow.it/carinatv/carinatv/playlist.m3u8">
+                  src="{{$link}}">
              </video>
            
           </div>
