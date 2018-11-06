@@ -8,7 +8,7 @@
           <!-- Tooltip -->
           <div class="demo-btn-space mb-4">
             <div class="row" style="margin-bottom: 20px;">
-                <h3><i class="fas fa-align-left mr-2"></i> Lịch stream tuần này </h3>
+                <h3><i class="fas fa-align-left mr-2"></i> Lịch stream hôm nay </h3>
             </div>
             <div class="row">
               @foreach ($matches as $match)

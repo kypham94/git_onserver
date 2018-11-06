@@ -93,7 +93,7 @@
 	<script type="text/javascript">
         $( document ).ready(function() {
                 $(".vjs-modal-dialog-content").text('Hiện tại trận đấu chưa diễn ra hoặc đã kết thúc, bạn vui lòng quay sau nhé :(');
-		$(".chat").hide();
+		$(".chat").show();
 		$("#turn-on").click(function() {
 			$(".chat").toggle();
 		});
