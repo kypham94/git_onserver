@@ -86,9 +86,6 @@
               		 <a href="{{ asset('/tructiep/'.$data->slug.'/4') }}">Link 4</a>
               	</button>
               	@endif
-		<button id="turn-on" type="button" class="btn btn-primary">
-                         Bật / Tắt Chat
-                </button>
 
         	</div>
             <div class="row">
@@ -104,7 +101,6 @@
           </div>
 				  </div>
 				<div class="col-md-3 col-lg-3">
-					<div class="chat" id="chatwing-embedded-2bb40920-de4c-11e8-9d7e-e1742e584162"></div>
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <!-- quarng cao 2 -->
           <ins class="adsbygoogle"
@@ -122,10 +118,6 @@
 	<script type="text/javascript">
         $( document ).ready(function() {
                 $(".vjs-modal-dialog-content").text('Hiện tại trận đấu chưa diễn ra hoặc đã kết thúc, bạn vui lòng quay sau nhé :(');
-		$(".chat").hide();
-		$("#turn-on").click(function() {
-			$(".chat").toggle();
-		});
         });
         (function(d) {
 		    var cwjs, id='chatwing-js';  if(d.getElementById(id)) {return;}
