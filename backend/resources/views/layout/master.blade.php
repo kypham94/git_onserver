@@ -29,16 +29,6 @@
     <script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
     </script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6662668396400898"
-     data-ad-slot="9557607621"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/vendors/jquery.migrate.min.js"></script>
     <script src="assets/vendors/popper.min.js"></script>
@@ -152,10 +142,8 @@
         <!-- End Navbar Dark -->
       <!-- End Navbar -->
     </header>
-
-    @yield('content')
     <div class="row">
-      <div class="container">
+    <div class="container">
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle"
            style="display:block"
@@ -165,6 +153,21 @@
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
+    </div>
+    </div>
+    @yield('content')
+    <div class="row">
+      <div class="container">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6662668396400898"
+     data-ad-slot="9557607621"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </div>
     </div>
     <!-- Footer -->
