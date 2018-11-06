@@ -3,16 +3,15 @@
  @section('kw',$data->name.' '.$data->time)
  @section('des', 'Xem đá bóng miễn phí chất lượng HD')
  @section('content')
- 	<link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-    <script src="//releases.flowplayer.org/7.2.4/flowplayer.min.js"></script>
+    <script src="{{ asset('flow/flowplayer.min.js') }}"></script>
     <!-- Flowplayer hlsjs engine (light) -->
-    <script src="//releases.flowplayer.org/hlsjs/flowplayer.hlsjs.light.min.js"></script>
-    <link rel="stylesheet" href="//releases.flowplayer.org/7.2.5/skin/skin.css">
+    <script src="{{ asset('flow/flowplayer.hlsjs.light.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('flow/skin.css') }}">
    
    <!-- Minimal styling for this standalone page, can be removed -->
-   <link rel="stylesheet" href="//demos.flowplayer.com/media/css/demo.css">
+   <link rel="stylesheet" href="{{asset('flow/demo.css')}}">
    <!-- Syntax highlighting of source code, can be removed -->
-   <link rel="stylesheet" href="//demos.flowplayer.com/media/css/pygments.css">
+   <link rel="stylesheet" href="{{ asset('flow/pygments.css')}}">
     <style type="text/css">
     	.widget-box {
     		background-color: #1b1e24!important;
