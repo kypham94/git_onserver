@@ -23,16 +23,13 @@
         		display: none;
     		}
     	}
-      @media only screen and (max-width: 600px) {
-        .bottom-ads {
-          display: none;
-        }
-      }
     	@media only screen and (max-width: 780px) {
    			.chat {
         		display: none;
     		}
-
+        .bottom-ads {
+          display: none;
+        }
     		.logo {
     			display: none!important;
     		}
@@ -104,9 +101,10 @@
             </div>
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
-          <div class="row" style="margin-bottom: 20px" class="bottom-ads">
+          <div class="row" style="margin-bottom: 20px">
             <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
           </div>
+          <div class="bottom-ads">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <!-- quarng cao 2 -->
           <ins class="adsbygoogle"
@@ -115,11 +113,11 @@
                data-ad-slot="7207390732"
                data-ad-format="auto"
                data-full-width-responsive="true"></ins>
-          </div>
           <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
 				</div>
+      </div>
 			</div>			   
 		</div>
 	<script type="text/javascript">
