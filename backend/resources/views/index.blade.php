@@ -8,7 +8,7 @@
           <!-- Tooltip -->
           <div class="demo-btn-space mb-4">
             <div class="row" style="margin-bottom: 20px;">
-                <h3><i class="fas fa-align-left mr-2"></i> Lịch stream hôm nay </h3> 
+                <h3 style="padding-right: 20px;"><i class="fas fa-align-left mr-2"></i> Lịch stream hôm nay </h3> 
               <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
             </div>
             <div class="row">
