@@ -102,7 +102,7 @@
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
           <div class="row" style="margin-bottom: 20px">
-            <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
           </div>
           <div class="bottom-ads">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
