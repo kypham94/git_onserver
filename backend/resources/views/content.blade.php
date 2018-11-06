@@ -89,18 +89,17 @@
 
         	</div>
             <div class="row">
-            	<div class="col-md-1 col-lg-1"></div>
           <div class="col-sm-12 col-md-8 col-lg-8">
-			  	<div data-live="true" data-ratio="0.5625" data-share="false" class="flowplayer">
-           
-             <video data-title="{{$data->name}}">
-          <source type="application/x-mpegurl"
-                  src="{{$link}}">
-             </video>
-           
-          </div>
+  			  	<div data-live="true" data-ratio="0.5625" data-share="false" class="flowplayer">
+             
+               <video data-title="{{$data->name}}">
+            <source type="application/x-mpegurl"
+                    src="{{$link}}">
+               </video>
+             
+            </div>
 				  </div>
-				<div class="col-md-3 col-lg-3">
+				<div class="col-sm-0 col-md-3 col-lg-3">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <!-- quarng cao 2 -->
           <ins class="adsbygoogle"
