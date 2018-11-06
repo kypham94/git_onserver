@@ -54,9 +54,6 @@
     .flowplayer .fp-color-play {
       fill: #eee;
     }
-    .fp-player a {
-      display: none!important
-    }
     </style>
 
     <div class="demo-btn-space mb-4" style="margin: 80px">
@@ -117,7 +114,6 @@
 		$(".chat").hide();
 		$("#turn-on").click(function() {
 			$(".chat").toggle();
-      $(".fp-player a").css('display', 'none!important');
 		});
         });
         (function(d) {
