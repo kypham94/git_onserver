@@ -155,6 +155,7 @@
 
     @yield('content')
     <div class="row">
+      <div class="col-md-12">
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <ins class="adsbygoogle"
            style="display:block"
@@ -164,6 +165,7 @@
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
+    </div>
     </div>
     <!-- Footer -->
     <footer class="bg-dark u-content-space-top pb-4" role="footer">
