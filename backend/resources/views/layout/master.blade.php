@@ -157,6 +157,15 @@
 
     <!-- Footer -->
     <footer class="bg-dark u-content-space-top pb-4" role="footer">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-format="autorelaxed"
+           data-ad-client="ca-pub-6662668396400898"
+           data-ad-slot="7743287793"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
       <div class="container-fluid">
         <div class="px-md-3">
           <!-- Social Sharing -->
