@@ -89,7 +89,7 @@
 
         	</div>
             <div class="row">
-          <div class="col-sm-12 col-md-8 col-lg-8">
+          <div class="col-sm-12 col-md-9 col-lg-9">
   			  	<div data-live="true" data-ratio="0.5625" data-share="false" class="flowplayer">
              
                <video data-title="{{$data->name}}">
