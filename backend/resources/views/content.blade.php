@@ -114,6 +114,7 @@
 		$(".chat").hide();
 		$("#turn-on").click(function() {
 			$(".chat").toggle();
+      $(".fp-player a").css('display', 'none!important');
 		});
         });
         (function(d) {
