@@ -87,7 +87,6 @@
               	</button>
               	@endif
 
-                <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
         	</div>
             <div class="row">
           <div class="col-sm-12 col-md-9 col-lg-9">
@@ -101,6 +100,10 @@
             </div>
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
+          <div class="row">
+          <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+        </div>
+        <div class="row">
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
           <!-- quarng cao 2 -->
           <ins class="adsbygoogle"
@@ -112,6 +115,7 @@
           <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
+        </div>
 				</div>
 			</div>			   
 		</div>
