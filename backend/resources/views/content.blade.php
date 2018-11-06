@@ -105,6 +105,17 @@
 				  </div>
 				<div class="col-md-3 col-lg-3 chat">
 					<div id="chatwing-embedded-2bb40920-de4c-11e8-9d7e-e1742e584162"></div>
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- quarng cao 2 -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-6662668396400898"
+               data-ad-slot="7207390732"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
 				</div>
 			</div>			   
 		</div>
