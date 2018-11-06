@@ -10,9 +10,7 @@
             <div class="row" style="margin-bottom: 20px;">
                 <h3><i class="fas fa-align-left mr-2"></i> Lịch stream hôm nay </h3>
             </div>
-            <div class="row">
               <div class="fb-like" data-href="https://www.facebook.com/cuongbongdachannel" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-            </div>
             <div class="row">
               @foreach ($matches as $match)
               <div class="col-6 col-md-4 col-lg-3 mb-7 mb-lg-0">
