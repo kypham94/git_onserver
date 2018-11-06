@@ -105,7 +105,7 @@
             <script id="cid0020000202485567454" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 250px;height: 350px;">{"handle":"duduatv","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"fwtickm":1}}</script>
             <div class="clearfix"></div>
           </div>
-          <div class="row" style="margin-top: 10px">
+          <div class="row" style="margin-top: 10px; margin-bottom: 10px; ">
             <div class="fb-page" data-href="https://www.facebook.com/cuongbongdachannel/" data-width="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cuongbongdachannel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cuongbongdachannel/">Cuồng Bóng đá TV</a></blockquote></div>
           </div>
           <div class="bottom-ads">
