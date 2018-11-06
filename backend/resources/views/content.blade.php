@@ -102,7 +102,7 @@
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
           <div class="row" style="margin-bottom: 20px">
-            <script id="cid0020000202485439147" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 100%;height: 100%;">{"handle":"duduatv","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"fwtickm":1}}</script>
+            <script id="cid0020000202485567454" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 250px;height: 350px;">{"handle":"duduatv","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"fwtickm":1}}</script>
             <div class="fb-page" data-href="https://www.facebook.com/cuongbongdachannel/" data-tabs="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cuongbongdachannel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cuongbongdachannel/">Cuồng Bóng đá TV</a></blockquote></div>
           </div>
           <div class="bottom-ads">
