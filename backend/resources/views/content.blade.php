@@ -106,21 +106,8 @@
             <div class="clearfix"></div>
           </div>
           <div class="row" style="margin-top: 10px; margin-bottom: 10px; ">
-            <div class="fb-page" data-href="https://www.facebook.com/cuongbongdachannel/" data-width="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cuongbongdachannel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cuongbongdachannel/">Cuồng Bóng đá TV</a></blockquote></div>
+            <div class="fb-page" data-href="https://www.facebook.com/cuongbongdachannel/" data-width="450" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cuongbongdachannel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cuongbongdachannel/">Cuồng Bóng đá TV</a></blockquote></div>
           </div>
-          <div class="bottom-ads">
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- quarng cao 2 -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-6662668396400898"
-               data-ad-slot="7207390732"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-				</div>
       </div>
 			</div>			   
 		</div>
