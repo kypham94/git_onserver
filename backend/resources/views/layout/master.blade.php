@@ -78,10 +78,11 @@
       }
     </style>
     <!-- End Demo Custome Code (demo page only) -->
+    <script async="async" data-cfasync="false" src="//tharbadir.com/2?z=2135060"></script>
   </head>
   <!-- End Head -->
 
-  <body style="padding-top:100px" id="js-home">
+  <body id="js-home">
     <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
