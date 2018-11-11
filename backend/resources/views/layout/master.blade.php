@@ -81,7 +81,7 @@
   </head>
   <!-- End Head -->
 
-  <body id="js-home">
+  <body style="margin-top: 100px " id="js-home">
     <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -138,6 +138,16 @@
         <!-- End Navbar Dark -->
       <!-- End Navbar -->
     </header>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-6662668396400898"
+     data-ad-slot="9557607621"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     @yield('content')
     </div>
     <!-- Footer -->
