@@ -3,15 +3,14 @@
  @section('kw',$data->name.' '.$data->time)
  @section('des', 'Xem đá bóng miễn phí chất lượng HD')
  @section('content')
-    <script src="{{ asset('flow/flowplayer.min.js') }}"></script>
-    <!-- Flowplayer hlsjs engine (light) -->
-    <script src="{{ asset('flow/flowplayer.hlsjs.light.min.js') }}"></script>
-    <link rel="stylesheet" href="{{ asset('flow/skin.css') }}">
-   
-   <!-- Minimal styling for this standalone page, can be removed -->
-   <link rel="stylesheet" href="{{asset('flow/demo.css')}}">
-   <!-- Syntax highlighting of source code, can be removed -->
-   <link rel="stylesheet" href="{{ asset('flow/pygments.css')}}">
+   <link rel="stylesheet" href="//samples.streamroot.io/web/assets/demo-pages.css">
+
+  <!-- Makes the header -->
+  <script src="//samples.streamroot.io/web/assets/header.js"></script>
+
+  <!-- Builds -->
+  <script src="//cdn.jsdelivr.net/npm/hls.js@0.9.1/dist/hls.min.js"></script>
+  <script src="//cdn.streamroot.io/hlsjs-dna-wrapper/1/stable/hlsjs-dna-wrapper.js"></script>
     <style type="text/css">
     	.widget-box {
     		background-color: #1b1e24!important;
@@ -91,14 +90,8 @@
         	</div>
             <div class="row">
           <div class="col-sm-12 col-md-9 col-lg-9">
-  			  	<div data-live="true" data-ratio="0.5625" data-share="false" class="flowplayer">
-             
-               <video data-title="{{$data->name}}">
-            <source type="application/x-mpegurl"
-                    src="{{$link}}">
-               </video>
-             
-            </div>
+  			  	<video id="demoplayer" width="512" height="288" muted controls autoplay></video>
+            <div id="streamroot-graphs"></div>
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
           <div class="row" style="margin-bottom: 20px">
@@ -111,15 +104,22 @@
       </div>
 			</div>			   
 		</div>
-	<script type="text/javascript">
-        $( document ).ready(function() {
-                $(".vjs-modal-dialog-content").text('Hiện tại trận đấu chưa diễn ra hoặc đã kết thúc, bạn vui lòng quay sau nhé :(');
-        });
-        (function(d) {
-		    var cwjs, id='chatwing-js';  if(d.getElementById(id)) {return;}
-		    cwjs = d.createElement('script'); cwjs.type = 'text/javascript'; cwjs.async = true; cwjs.id = id
-		    cwjs.src = "//chatwing.com/code/2bb40920-de4c-11e8-9d7e-e1742e584162/embedded";
-		    d.getElementsByTagName('head')[0].appendChild(cwjs);
-	  	})(document);
-	</script>
+    <script>
+    // select the above element as player container
+    ar hlsjsConfig = {
+      "maxBufferSize": 0,
+      "maxBufferLength": 30,
+      "liveSyncDuration": 30
+    };
+    var dnaConfig = {};
+    var hls = new Hls(hlsjsConfig);
+    var wrapper = new HlsjsDnaWrapper(hls, "demoswebsiteandpartners", dnaConfig);
+    var videoElement = document.getElementById('demoplayer');
+    hls.loadSource({{$link}});
+    hls.attachMedia(videoElement);
+    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+      videoElement.play();
+    });
+
+</script>
 @endsection
