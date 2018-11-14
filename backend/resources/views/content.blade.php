@@ -106,7 +106,7 @@
 		</div>
     <script>
     // select the above element as player container
-    ar hlsjsConfig = {
+    var hlsjsConfig = {
       "maxBufferSize": 0,
       "maxBufferLength": 30,
       "liveSyncDuration": 30
