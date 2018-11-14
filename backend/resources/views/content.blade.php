@@ -109,7 +109,7 @@
     var hls = new Hls(hlsjsConfig);
     var wrapper = new HlsjsDnaWrapper(hls, "demoswebsiteandpartners", dnaConfig);
     var videoElement = document.getElementById('demoplayer');
-    hls.loadSource({{$link}});
+    hls.loadSource('{{$link}}');
     hls.attachMedia(videoElement);
     hls.on(Hls.Events.MANIFEST_PARSED, function () {
       videoElement.play();
