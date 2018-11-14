@@ -3,8 +3,6 @@
  @section('kw',$data->name.' '.$data->time)
  @section('des', 'Xem đá bóng miễn phí chất lượng HD')
  @section('content')
-   <link rel="stylesheet" href="//samples.streamroot.io/web/assets/demo-pages.css">
-  <!-- Builds -->
   <script src="//cdn.jsdelivr.net/npm/hls.js@0.9.1/dist/hls.min.js"></script>
   <script src="//cdn.streamroot.io/hlsjs-dna-wrapper/1/stable/hlsjs-dna-wrapper.js"></script>
     <style type="text/css">
