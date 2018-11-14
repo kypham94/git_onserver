@@ -90,7 +90,7 @@
         	</div>
             <div class="row">
           <div class="col-sm-12 col-md-9 col-lg-9">
-  			  	<video id="demoplayer" muted controls autoplay></video>
+  			  	<video id="demoplayer" width="90%" height="50%" muted controls autoplay></video>
             <div id="streamroot-graphs"></div>
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
