@@ -138,9 +138,6 @@
                 <li class="nav-item active mr-3">
                   <a class="nav-link" href="{{ asset('/') }}">Trang chủ</a>
                 </li>
-                <li class="nav-item mr-3">
-                  <a class="nav-link" target="blank" href="http://cuongbongdatv.com">Tin tức bóng đá</a>
-                </li>
               </ul>
             </div>
           </div>
