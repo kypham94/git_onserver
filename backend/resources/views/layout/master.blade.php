@@ -8,7 +8,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="keywords" content="truc tiep bong da, xem bong da, link bong da,xem khong giat,xem bong da khong lag, xem bong da hd, @yield('kw')">
+    <meta name="keywords" content="truc tiep bong da,watch football today,xem bong da, link bong da,xem khong giat,xem bong da khong lag, xem bong da hd, @yield('kw')">
     <meta name="description" content="@yield('des')">
     <meta name="author" content="duduatv.live">
     <base href="{{ asset('/') }}">
@@ -78,6 +78,16 @@
       }
     </style>
     <!-- End Demo Custome Code (demo page only) -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129319672-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-129319672-1');
+    </script>
+
   </head>
   <!-- End Head -->
 
