@@ -3,8 +3,11 @@
  @section('kw',$data->name.' '.$data->time)
  @section('des', 'Xem đá bóng miễn phí chất lượng HD')
  @section('content')
-  <script src="{{ asset('fp/flowplayer.js') }}"></script>
-  <link rel="stylesheet" href="{{ asset('skin/skin.css') }}">
+  <script src="{{ asset('flow/flowplayer.min.js') }}"></script>
+  <script src="{{ asset('flow/flowplayer.hlsjs.light.min.js') }}"></script>
+  <link rel="stylesheet" href="{{ asset('flow/skin.css') }}">
+  <link rel="stylesheet" href="{{ asset('flow/demo.css') }}">
+  <link rel="stylesheet" href="{{ asset('flow/pygment.css') }}">
     <style type="text/css">
     	.widget-box {
     		background-color: #1b1e24!important;
