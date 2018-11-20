@@ -3,8 +3,8 @@
  @section('kw',$data->name.' '.$data->time)
  @section('des', 'Xem đá bóng miễn phí chất lượng HD')
  @section('content')
-  <script src="//cdn.jsdelivr.net/npm/hls.js@0.9.1/dist/hls.min.js"></script>
-  <script src="//cdn.streamroot.io/hlsjs-dna-wrapper/1/stable/hlsjs-dna-wrapper.js"></script>
+  <script src="{{ asset('fp/flowplayer.js') }}"></script>
+  <link rel="stylesheet" href="{{ asset('skin/skin.css') }}">
     <style type="text/css">
     	.widget-box {
     		background-color: #1b1e24!important;
@@ -84,8 +84,13 @@
         	</div>
             <div class="row">
           <div class="col-sm-12 col-md-9 col-lg-9">
-  			  	<video id="demoplayer" width="90%" height="50%" muted controls autoplay></video>
-            <div id="streamroot-graphs"></div>
+  			  	<div class="flowplayer" data-ratio="0.5625">
+
+              <video>
+                  <source type="application/x-mpegurl" src="{{$link}}">
+               </video>
+
+            </div>
 				  </div>
 				<div class="col-sm-0 col-md-3 col-lg-3">
           <div class="row" style="margin-bottom: 20px">
@@ -98,22 +103,4 @@
       </div>
 			</div>			   
 		</div>
-    <script>
-    // select the above element as player container
-    var hlsjsConfig = {
-      "maxBufferSize": 0,
-      "maxBufferLength": 30,
-      "liveSyncDuration": 30
-    };
-    var dnaConfig = {};
-    var hls = new Hls(hlsjsConfig);
-    var wrapper = new HlsjsDnaWrapper(hls, "demoswebsiteandpartners", dnaConfig);
-    var videoElement = document.getElementById('demoplayer');
-    hls.loadSource('{{$link}}');
-    hls.attachMedia(videoElement);
-    hls.on(Hls.Events.MANIFEST_PARSED, function () {
-      videoElement.play();
-    });
-
-</script>
 @endsection
